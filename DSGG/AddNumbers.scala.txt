@@ -1,0 +1,13 @@
+object AddNumbers {
+  def main(args: Array[String]): Unit = {
+    // Define two numbers
+    val number1 = 10
+    val number2 = 20
+    
+    // Add the numbers
+    val sum = number1 + number2
+    
+    // Print the result
+    println(s"The sum of $number1 and $number2 is: $sum")
+  }
+}
